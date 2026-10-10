@@ -9,12 +9,15 @@ public class DinamikListe {
         sehirler.add("Bakü");
         sehirler.add("İstanbul");
         sehirler.add("Ankara");
+        sehirler.add("Barcelona");
+        sehirler.add("Munich");
 
         // Listede kaç eleman olduğunu yazdıralım (.size() komutu)
         System.out.println("İlk liste boyutu: " + sehirler.size());
 
         // Listeye sonradan yeni bir şehir daha ekleyelim
         sehirler.add("Roma");
+        sehirler.remove("Ankara");
 
         System.out.println("Yeni liste boyutu: " + sehirler.size());
 
